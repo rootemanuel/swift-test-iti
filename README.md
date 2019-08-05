@@ -1,12 +1,12 @@
 # Teste
 
-Desenvolvido em Swift 4;\n
-Ordena lista de contatos;\n
-Trata retorno vázio ou exceção com padrão tableview empty;\n
-Sections de acordo com os contatos, para agrupamento;\n
-Controle de transferência via UserDefaults;\n
-Reutilização de UITableViewCell;\n
-Extensão de botão para layout/design;\n
+Desenvolvido em Swift 4;
+Ordena lista de contatos;
+Trata retorno vázio ou exceção com padrão tableview empty;
+Sections de acordo com os contatos, para agrupamento;
+Controle de transferência via UserDefaults;
+Reutilização de UITableViewCell;
+Extensão de botão para layout/design;
 
 # Preparando ambiente mock:
 
