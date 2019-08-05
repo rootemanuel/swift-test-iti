@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0B00B8422EF3F0500D32436 /* emptyErrorV.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B00B8322EF3F0500D32436 /* emptyErrorV.swift */; };
+		A0B00B8622EF3F2800D32436 /* emptyErrorV.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0B00B8522EF3F2800D32436 /* emptyErrorV.xib */; };
+		A0B00B8822EF5B2C00D32436 /* emptyLoadingV.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B00B8722EF5B2C00D32436 /* emptyLoadingV.swift */; };
+		A0B00B8C22EF5B6700D32436 /* emptyLoadingV.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0B00B8B22EF5B6700D32436 /* emptyLoadingV.xib */; };
+		A0B00B9022EF839E00D32436 /* transferTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B00B8F22EF839E00D32436 /* transferTVC.swift */; };
+		A0B00B9222EF869E00D32436 /* ButtonExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B00B9122EF869E00D32436 /* ButtonExtender.swift */; };
 		A0D5A04022EB704C00EF5585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5A03F22EB704C00EF5585 /* AppDelegate.swift */; };
-		A0D5A04222EB704C00EF5585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5A04122EB704C00EF5585 /* ViewController.swift */; };
 		A0D5A04522EB704C00EF5585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D5A04322EB704C00EF5585 /* Main.storyboard */; };
 		A0D5A04722EB704D00EF5585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D5A04622EB704D00EF5585 /* Assets.xcassets */; };
 		A0D5A04A22EB704D00EF5585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D5A04822EB704D00EF5585 /* LaunchScreen.storyboard */; };
 		A0D5A05522EB704E00EF5585 /* test_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5A05422EB704E00EF5585 /* test_iosTests.swift */; };
 		A0D5A06022EB704E00EF5585 /* test_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5A05F22EB704E00EF5585 /* test_iosUITests.swift */; };
+		A0D5A07122EB732100EF5585 /* contactsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5A07022EB732100EF5585 /* contactsTVC.swift */; };
+		A0D5A07B22EB77EE00EF5585 /* genericInfoLeftTVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5A07922EB77EE00EF5585 /* genericInfoLeftTVCC.swift */; };
+		A0D5A07C22EB77EE00EF5585 /* genericInfoLeftTVCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0D5A07A22EB77EE00EF5585 /* genericInfoLeftTVCC.xib */; };
+		A0D5A08122EB8A5D00EF5585 /* genericInfoCenterTVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5A07F22EB8A5D00EF5585 /* genericInfoCenterTVCC.swift */; };
+		A0D5A08222EB8A5D00EF5585 /* genericInfoCenterTVCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0D5A08022EB8A5D00EF5585 /* genericInfoCenterTVCC.xib */; };
+		A0D5A08822EBC69200EF5585 /* contactsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5A08722EBC69200EF5585 /* contactsDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0B00B8322EF3F0500D32436 /* emptyErrorV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emptyErrorV.swift; sourceTree = "<group>"; };
+		A0B00B8522EF3F2800D32436 /* emptyErrorV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = emptyErrorV.xib; sourceTree = "<group>"; };
+		A0B00B8722EF5B2C00D32436 /* emptyLoadingV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emptyLoadingV.swift; sourceTree = "<group>"; };
+		A0B00B8B22EF5B6700D32436 /* emptyLoadingV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = emptyLoadingV.xib; sourceTree = "<group>"; };
+		A0B00B8F22EF839E00D32436 /* transferTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transferTVC.swift; sourceTree = "<group>"; };
+		A0B00B9122EF869E00D32436 /* ButtonExtender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtender.swift; sourceTree = "<group>"; };
 		A0D5A03C22EB704C00EF5585 /* test-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D5A03F22EB704C00EF5585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0D5A04122EB704C00EF5585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0D5A04422EB704C00EF5585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0D5A04622EB704D00EF5585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D5A04922EB704D00EF5585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,12 @@
 		A0D5A05B22EB704E00EF5585 /* test-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D5A05F22EB704E00EF5585 /* test_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_iosUITests.swift; sourceTree = "<group>"; };
 		A0D5A06122EB704E00EF5585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D5A07022EB732100EF5585 /* contactsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsTVC.swift; sourceTree = "<group>"; };
+		A0D5A07922EB77EE00EF5585 /* genericInfoLeftTVCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genericInfoLeftTVCC.swift; sourceTree = "<group>"; };
+		A0D5A07A22EB77EE00EF5585 /* genericInfoLeftTVCC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = genericInfoLeftTVCC.xib; sourceTree = "<group>"; };
+		A0D5A07F22EB8A5D00EF5585 /* genericInfoCenterTVCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genericInfoCenterTVCC.swift; sourceTree = "<group>"; };
+		A0D5A08022EB8A5D00EF5585 /* genericInfoCenterTVCC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = genericInfoCenterTVCC.xib; sourceTree = "<group>"; };
+		A0D5A08722EBC69200EF5585 /* contactsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +119,9 @@
 		A0D5A03E22EB704C00EF5585 /* test-ios */ = {
 			isa = PBXGroup;
 			children = (
+				A0D5A08422EBBC4400EF5585 /* dto */,
+				A0D5A06D22EB706000EF5585 /* views */,
 				A0D5A03F22EB704C00EF5585 /* AppDelegate.swift */,
-				A0D5A04122EB704C00EF5585 /* ViewController.swift */,
 				A0D5A04322EB704C00EF5585 /* Main.storyboard */,
 				A0D5A04622EB704D00EF5585 /* Assets.xcassets */,
 				A0D5A04822EB704D00EF5585 /* LaunchScreen.storyboard */,
@@ -123,6 +146,40 @@
 				A0D5A06122EB704E00EF5585 /* Info.plist */,
 			);
 			path = "test-iosUITests";
+			sourceTree = "<group>";
+		};
+		A0D5A06D22EB706000EF5585 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A0D5A07822EB77CD00EF5585 /* generics */,
+				A0D5A07022EB732100EF5585 /* contactsTVC.swift */,
+				A0B00B8F22EF839E00D32436 /* transferTVC.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A0D5A07822EB77CD00EF5585 /* generics */ = {
+			isa = PBXGroup;
+			children = (
+				A0D5A07922EB77EE00EF5585 /* genericInfoLeftTVCC.swift */,
+				A0D5A07A22EB77EE00EF5585 /* genericInfoLeftTVCC.xib */,
+				A0D5A07F22EB8A5D00EF5585 /* genericInfoCenterTVCC.swift */,
+				A0D5A08022EB8A5D00EF5585 /* genericInfoCenterTVCC.xib */,
+				A0B00B8322EF3F0500D32436 /* emptyErrorV.swift */,
+				A0B00B8522EF3F2800D32436 /* emptyErrorV.xib */,
+				A0B00B8722EF5B2C00D32436 /* emptyLoadingV.swift */,
+				A0B00B8B22EF5B6700D32436 /* emptyLoadingV.xib */,
+				A0B00B9122EF869E00D32436 /* ButtonExtender.swift */,
+			);
+			path = generics;
+			sourceTree = "<group>";
+		};
+		A0D5A08422EBBC4400EF5585 /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				A0D5A08722EBC69200EF5585 /* contactsDTO.swift */,
+			);
+			path = dto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +286,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D5A07C22EB77EE00EF5585 /* genericInfoLeftTVCC.xib in Resources */,
 				A0D5A04A22EB704D00EF5585 /* LaunchScreen.storyboard in Resources */,
 				A0D5A04722EB704D00EF5585 /* Assets.xcassets in Resources */,
+				A0B00B8622EF3F2800D32436 /* emptyErrorV.xib in Resources */,
 				A0D5A04522EB704C00EF5585 /* Main.storyboard in Resources */,
+				A0B00B8C22EF5B6700D32436 /* emptyLoadingV.xib in Resources */,
+				A0D5A08222EB8A5D00EF5585 /* genericInfoCenterTVCC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +317,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D5A04222EB704C00EF5585 /* ViewController.swift in Sources */,
+				A0B00B8822EF5B2C00D32436 /* emptyLoadingV.swift in Sources */,
+				A0D5A08122EB8A5D00EF5585 /* genericInfoCenterTVCC.swift in Sources */,
+				A0B00B9222EF869E00D32436 /* ButtonExtender.swift in Sources */,
+				A0B00B8422EF3F0500D32436 /* emptyErrorV.swift in Sources */,
+				A0D5A07122EB732100EF5585 /* contactsTVC.swift in Sources */,
+				A0D5A07B22EB77EE00EF5585 /* genericInfoLeftTVCC.swift in Sources */,
 				A0D5A04022EB704C00EF5585 /* AppDelegate.swift in Sources */,
+				A0B00B9022EF839E00D32436 /* transferTVC.swift in Sources */,
+				A0D5A08822EBC69200EF5585 /* contactsDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
