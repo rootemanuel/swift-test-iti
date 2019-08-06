@@ -16,7 +16,7 @@ class transferTVC: UITableViewController {
         static let value = "value"
         static let date_formatter = "yyyyMMdd"
         static let limit = 10000.00
-        static let json_empty = "{}"
+        static let url = "http://localhost:8080/mock"
     }
     
     @IBOutlet weak var lblDe: UILabel!
@@ -179,7 +179,7 @@ class transferTVC: UITableViewController {
     
     func getResultsApi(completion: @escaping (_ result:Bool)->()){
         
-        guard let url = URL(string: "http://localhost:8080/mock") else {
+        guard let url = URL(string: statics.url) else {
             return
         }
         
