@@ -12,7 +12,7 @@
         <!--ContactsTVC-->
         <scene sceneID="6Me-Ta-qNQ">
             <objects>
-                <tableViewController id="cbL-JB-Su6" customClass="contactsTVC" customModule="test_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="contacts" id="cbL-JB-Su6" customClass="contactsTVC" customModule="test_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5jC-Yb-6Dc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
         <!--TransferTVC-->
         <scene sceneID="O2h-cd-OQ6">
             <objects>
-                <tableViewController storyboardIdentifier="transferTVC" id="3yu-Ja-5UW" customClass="transferTVC" customModule="test_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="transfer" id="3yu-Ja-5UW" customClass="transferTVC" customModule="test_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="CTU-j2-L49">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

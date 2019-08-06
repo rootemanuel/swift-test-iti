@@ -206,7 +206,7 @@ class contactsTVC: UITableViewController {
                 }
                 
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let vc = storyboard.instantiateViewController(withIdentifier: "transferTVC") as! transferTVC
+                let vc = storyboard.instantiateViewController(withIdentifier: "transfer") as! transferTVC
                 
                 vc.contactSel = self.contactSel
                 vc.accountSel = self.accountSel
